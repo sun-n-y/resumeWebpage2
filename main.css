@@ -29,6 +29,7 @@ body {
 .hero .navbar p {
   font-size: 2rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .navbar .contact {
@@ -40,4 +41,14 @@ body {
 
 .navbar .contact:hover {
   opacity: 0.8;
+}
+
+.hero .hero-content {
+  padding: 0 15%;
+}
+
+.hero .hero-content h1 {
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  padding: 32px 0;
 }
