@@ -1,1 +1,42 @@
 /* resume webpage 2 */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #f1e9db;
+  height: 90vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 24px 32px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 16px;
+  font-size: 1.2rem;
+}
+
+.hero .navbar p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar .contact {
+  background-color: black;
+  color: #f1e9db;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+
+.navbar .contact:hover {
+  opacity: 0.8;
+}
